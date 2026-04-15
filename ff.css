@@ -1,4 +1,4 @@
-﻿body,
+body,
 html {
     margin: 0;
     padding: 0;
@@ -157,6 +157,23 @@ main {
 
 .project-card a {
     margin-top: auto;
+}
+
+.project-note {
+    display: inline-block;
+    margin: 0 0 14px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: rgba(138, 43, 226, 0.16);
+    color: #c78cff;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+}
+
+.project-role {
+    margin-top: auto;
+    color: rgba(234, 234, 255, 0.7);
+    font-size: 15px;
 }
 
 .skills-container {
@@ -383,6 +400,16 @@ footer a:hover {
     .skill-card {
         width: min(100%, 340px);
     }
+
+    .contacts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-card {
+        min-height: auto;
+        text-align: center;
+    }
+}
 
     .contacts-grid {
         grid-template-columns: 1fr;
