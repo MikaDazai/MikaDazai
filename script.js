@@ -12,16 +12,22 @@ const translations = {
     navContacts: "Contacts",
     aboutTitle: "About me",
     aboutText:
-      "My name is Atamaniuk Mykhailo, I am 17 years old. I am originally from Donetsk, and because of the war I moved to Vyshneve, Kyiv region. Now I study in the 11th grade and plan to connect my future with IT, design, and web development.",
+      "I am Atamaniuk Mykhailo, a frontend developer in progress and a creative digital builder. I do not just create websites, I build clean and modern pages that grab attention and feel alive. Currently I am growing in HTML, CSS, and JavaScript while exploring design, web development, and digital creativity. I focus not only on how things look, but on how they feel, engage, and convert. Frontend beginner. Creative thinker. Future IT specialist, already in motion.",
     projectsTitle: "Projects",
+    project1Title: "Cripto-Bit Platform",
     project1Text:
-      "I took part in building a marketing strategy for the agency, helped create a sales funnel, and worked with positioning, target audience, and creative ideas for social media promotion.",
+      "This is my crypto platform project that I am still improving. It presents a modern interface for exploring crypto topics and shows my frontend skills in practice.",
     project2Title: "BeatiMafia Website Administrator",
     project2Text:
       "I added and updated products in the catalog, worked with the CMS, organized categories and brands, and helped keep site content clear and useful for visitors.",
-    project3Title: "Personal Portfolio",
+    project3Title: "AI Film Platform",
     project3Text:
-      "This project is my personal portfolio website where I present my skills, projects, and growth in frontend development and design.",
+      "This project is a movie platform focused on AI films where users can explore and watch themed content in a modern interface.",
+    project4Title: "Flash Digital Agency",
+    project4Text:
+      "This was a startup project that is no longer active. I worked on the website itself and helped with the visual design and overall presentation of the site.",
+    project4Status: "Archived project",
+    project4Role: "Website and design work",
     demoBtn: "Demo",
     codeBtn: "Code",
     skillsTitle: "Skills",
@@ -72,16 +78,22 @@ const translations = {
     navContacts: "Контакти",
     aboutTitle: "Про мене",
     aboutText:
-      "Мене звати Атаманюк Михайло, мені 17 років. Я родом з Донецька, але через війну переїхав до Вишневого, Київської області. Зараз навчаюся в 11 класі й планую пов'язати своє майбутнє з IT, дизайном та веброзробкою.",
+      "Я Атаманюк Михайло, frontend-розробник у процесі росту та креативний digital-creator. Я не просто створюю сайти, а роблю чисті й сучасні сторінки, які привертають увагу та відчуваються живими. Зараз я розвиваюся в HTML, CSS та JavaScript, а також досліджую дизайн, веброзробку й digital-креативність. Я фокусуюся не лише на тому, як усе виглядає, а й на тому, як це відчувається, залучає та конвертує. Початківець у frontend. Креативно мислю. Майбутній IT-спеціаліст, який уже в русі.",
     projectsTitle: "Проєкти",
+    project1Title: "Cripto-Bit Platform",
     project1Text:
-      "Я брав участь у створенні маркетингової стратегії для агенції, допомагав будувати воронку продажів і працював із позиціонуванням, цільовою аудиторією та креативами для просування в соцмережах.",
+      "Це мій проєкт крипто-платформи, який я ще продовжую допрацьовувати. Він показує сучасний інтерфейс для теми крипти та мої навички у frontend-розробці.",
     project2Title: "Адміністратор сайту BeatiMafia",
     project2Text:
       "Я додавав і оновлював товари в каталозі, працював із CMS, структурував категорії та бренди й допомагав робити контент сайту зрозумілим і зручним для відвідувачів.",
-    project3Title: "Особисте портфоліо",
+    project3Title: "AI Film Platform",
     project3Text:
-      "Цей проєкт є моїм особистим сайтом-портфоліо, де я показую свої навички, проєкти та розвиток у frontend-розробці й дизайні.",
+      "Це платформа для перегляду AI-фільмів, де користувач може знаходити й дивитися тематичний контент у сучасному інтерфейсі.",
+    project4Title: "Flash Digital Agency",
+    project4Text:
+      "Це був стартап-проєкт, який зараз уже неактивний. Я працював над самим сайтом, а також займався його візуальним оформленням і дизайном.",
+    project4Status: "Архівний проєкт",
+    project4Role: "Робота над сайтом і дизайном",
     demoBtn: "Демо",
     codeBtn: "Код",
     skillsTitle: "Навички",
@@ -154,3 +166,4 @@ languageButtons.forEach((button) => {
 
 const savedLanguage = localStorage.getItem("portfolio-language") || "en";
 setLanguage(savedLanguage);
+
